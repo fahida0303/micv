@@ -1,0 +1,171 @@
+body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    background-color: #1a1a1d;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #e6e6e8;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background: linear-gradient(to right, #1a1a25, #313142);
+    color: #f2d9e6;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #f5a9cb;
+  }
+  
+  header p {
+    margin: 10px 0;
+    font-size: 16px;
+    opacity: 0.95;
+    color: #e6e6e8;
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #f5a9cb;
+    margin: 15px 0;
+    background-color: #2c2c30;
+    box-shadow: 0 0 20px rgba(245, 169, 203, 0.3);
+  }
+  
+  header nav {
+    margin-top: 15px;
+  }
+  
+  header nav a {
+    color: #f2d9e6;
+    text-decoration: none;
+    background-color: rgba(245, 169, 203, 0.15);
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  header nav a:hover {
+    background-color: rgba(245, 169, 203, 0.25);
+    transform: translateY(-2px);
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    background-color: #252529;
+    padding: 25px;
+    margin: 0 auto 25px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
+    border-left: 4px solid #f5a9cb;
+  }
+  
+  section h2 {
+    color: #f5a9cb;
+    border-bottom: 1px solid #3a3a42;
+    padding-bottom: 12px;
+    margin-top: 0;
+    font-weight: 500;
+  }
+  
+  /* Estilos para listas */
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  table th, table td {
+    border: 1px solid #3a3a42;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #313142;
+    color: #f5a9cb;
+    font-weight: 500;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #2c2c34;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #3a3a42;
+    border-radius: 6px;
+    background-color: #1e1e24;
+    color: #e6e6e8;
+    transition: border 0.3s ease;
+  }
+  
+  form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #f5a9cb;
+    box-shadow: 0 0 5px rgba(245, 169, 203, 0.3);
+  }
+  
+  form button {
+    background: linear-gradient(to right, #e06b9a, #f5a9cb);
+    color: #1a1a1d;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  form button:hover {
+    background: linear-gradient(to right, #d8558c, #f7b8d1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(245, 169, 203, 0.4);
+  }
+  
+  /* Responsive para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    section {
+      margin: 0 15px 20px;
+      padding: 20px;
+    }
+    
+    header img {
+      width: 120px;
+      height: 120px;
+    }
+    
+    header h1 {
+      font-size: 24px;
+    }
+  }
